@@ -88,3 +88,92 @@ Very light gray (background, headings, buttons): hsl(0, 0%, 95%)
 - Family: [Big Shoulders Display](https://fonts.google.com/specimen/Big+Shoulders+Display)
 - Weights: 700
 
+CODE
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Preview Card</title>
+    <link rel="icon" type="image/x-icon" href="favicon1.ico">
+    <style>
+        .cards{display: flex;
+    margin: 150px 200px;
+}
+      .sedans{background-color:hsl(31, 77%, 52%);
+              color:white;
+              padding: 50px;
+              border-top-left-radius:10px;
+              border-bottom-left-radius: 10px;
+              font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+      .suvs{background-color:hsl(184, 100%, 22%);
+          color:white;
+          padding: 50px;
+          font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+     .luxury{background-color:hsl(179, 100%, 13%);
+            color:white;
+            padding: 50px;
+            border-top-right-radius: 10px;
+            border-bottom-right-radius: 10px;
+            font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;;
+}
+p{font-family: 'Lexend Deca', sans-serif;
+font-size: 14px;
+color:hsla(0, 0%, 100%, 0.75);
+word-spacing: 4px;
+width: 200px;
+height: 190px;
+line-height: 1.5;
+}
+button{background-color: white;
+    width: 150px;
+    height: 50px;
+    border-radius: 25px;
+    border: 1px solid white;
+}
+.learn{text-decoration: none;
+    font-size: 13px;
+}
+footer{
+ text-align: center;
+ color:(179, 100%, 13%);
+}
+a{
+ text-decoration: none;
+ color:hsl(184, 100%, 22%);
+}
+    </style>
+</head>
+<body>
+    <div class="cards">
+        <div class="sedans">
+            <img src="icon_sedans.svg" style="width: 61px;">
+            <h1>SEDANS</h1>
+            <p>Choose a sedan for its affordability and its excellent fuel economy. Ideal for cruising in the city or on your next road trip.</p>
+            <button><a href="frontendmentor.io" class="learn" style="color: orange;">Learn More</a></button>
+        </div>
+        <div class="suvs"> 
+            <img src="icon_suvs.svg" style="width: 61px;">
+            <h1>SUVS</h1>
+            <p>
+            Take an SUV for its spacious<br> interior, power and<br> versatility. Perfect for your<br> next family vacation and off-road adventures.
+            </p>
+            <button><a href="frontendmentor.io" class="learn" style="color: teal;">Learn More</a></button>
+        </div>
+        <div class="luxury">
+            <img src="iconluxury.svg" style="width: 61px;">
+            <h1>LUXURY</h1>
+            <p>
+            Cruise in the best car brands<br> without the bloated prices.<br> Enjoy the enhanced comfort <br>of a luxury rental and arrive<br>in style.
+            </p>
+            <button><a href="frontendmentor.io" class="learn" style="color:rgb(17, 95, 95)">Learn More</a></button>
+        </div>
+    </div>
+    <footer>
+        Challenge by <a href="frontendmentor.io">Frontendmentor.io</a> Coded by MariamOkan
+    </footer>
+</body>
+</html>
