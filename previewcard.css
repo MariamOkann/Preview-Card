@@ -1,0 +1,44 @@
+.cards{display: flex;
+    margin: 150px 200px;
+}
+      .sedans{background-color:hsl(31, 77%, 52%);
+              color:hsl(0,0%,100%);
+              padding: 50px;
+              border-top-left-radius:10px;
+              border-bottom-left-radius: 10px;
+              font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+      .suvs{background-color:hsl(184, 100%, 22%);
+          color:hsl(0,0%,100%);
+          padding: 50px;
+          font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+     .luxury{background-color:hsl(179, 100%, 13%);
+            color:hsl(0,0%,100%);
+            padding: 50px;
+            border-top-right-radius: 10px;
+            border-bottom-right-radius: 10px;
+            font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;;
+}
+p{font-family: 'Lexend Deca', sans-serif;
+font-size: 14px;
+color:hsla(0, 0%, 100%, 0.75);
+word-spacing: 4px;
+width: 200px;
+height: 190px;
+line-height: 1.5;
+}
+button{background-color: white;
+    width: 150px;
+    height: 50px;
+    border-radius: 25px;
+    border: 1px solid white;
+}
+footer{
+ text-align: center;
+ color:(179, 100%, 13%);
+}
+a{
+ text-decoration: none;
+ color:hsl(184, 100%, 22%);
+}
